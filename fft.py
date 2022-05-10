@@ -18,10 +18,10 @@ plt.show()
 t = np.linspace(0, seconds, 500)
 s = myrecording
 
-# plt.ylabel("Amplitude")
-# plt.xlabel("Time [s]")
-# plt.plot(t, s)
-# plt.show()
+plt.ylabel("Amplitude")
+plt.xlabel("Time [s]")
+plt.plot(t, s)
+plt.show()
 
 fft = np.fft.fft(s)
 
